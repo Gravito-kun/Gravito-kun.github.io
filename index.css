@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+h1{
+    font-family: 'poppins', sans-serif;
+    font-size: 5em;
+}
+h2{
+    font-family: 'poppins', sans-serif;
+    font-size: 3.5em;
+}
+h3{
+    font-family: 'poppins', sans-serif;
+    font-size: 2em;
+}
+h4{
+    font-family: 'poppins', sans-serif;
+    font-size: 5em;
+}
+p{
+    font-family: 'codan', sans-serif;
+    font-size: 1.75em;
+}
+li{
+    font-family: 'codan', sans-serif;
+    font-size: 1.25em;
+}
+button{
+    font-size: 1.25;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: #20335f;
+}
+button:hover{
+    background-color: blue;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    color: white;
+    background-color: #840000 ;
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 3em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+header a>:hover{
+    color: blue;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("media/header-ok.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    color: white;
+}
+#Acerca-del-acoso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    background-color: #20335f;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+}
+#Acerca-del-acoso .container{
+    text-align: center;
+    padding: 150px 12px;
+    background-color: #20335f;
+    color: white;
+}
+#Datos{
+    height: 95vh;
+    background-color:#20335f;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+}
+#Datos p{
+    font-weight: bold;
+}
+#Datos .container{
+    text-align: initial;
+    padding: 20px 12px;
+    background-color: #20335f;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+#Datos ul{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#Datos li{
+    margin: 20px 0px;
+    font-weight: bold;
+
+}
+#nuestras-piezas-graficas{
+    background-color:  #007b69;
+    color: white;
+    text-align: center;
+}
+#nuestras-piezas-graficas .container{
+    padding: 150px 12px;
+}
+#nuestras-piezas-graficas h2{
+    margin-top: 0;
+}
+#nuestras-piezas-graficas .carta{
+ background-position: center center;
+ background-size: cover;
+ padding: 100px 0px;
+ margin: 30px;
+ border-radius: 15px;
+}
+.carta:first-child{
+    background-image: url("media/LayingDoodle.jpg");
+}
+.carta:nth-child(2){
+    background-image: url("media/LayingDoodle.png");
+}
+.carta:nth-child(3){
+    background-image: url("media/LayingDoodle.jpg");
+}
+.carta:nth-child(4){
+    background-image: url("media/LayingDoodle.png");
+}
+.carta:nth-child(5){
+    background-image: url("media/LayingDoodle.jpg");
+}
+.carta:nth-child(6){
+    background-image: url("media/LayingDoodle.png");
+}
+.carta:nth-child(7){
+    background-image: url("media/LayingDoodle.jpg");
+}
+.carta:nth-child(8){
+    background-image: url("media/LayingDoodle.png");
+}
+#lema{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 70vh;
+    background-color: #20335f;
+    color: white;
+}
+footer{
+    background-color: #840000;
+}
+footer p{
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+@media (min-width: 720px) {
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+}
